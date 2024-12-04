@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  width: 94vw;
+}
+nav ul li{
+  display: inline-block;
+  margin: 0 19px;
+}
+.logo{
+  color:#426B1F;
+  font-size: 32px;
+  font-weight: 500;
+  letter-spacing: -1px;
+  font-family: "Newsreader", serif;
+  text-decoration: none;
+}
+nav ul li a{
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  color:#000000;
+  font-family: "inter",serif;
+}
+.basket{
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #426B1F;
+  color: #fff;
+  text-decoration: none;
+  border: #426B1F 1px solid;
+  border-radius: 8px;
+  font-family: "inter",serif;
+ padding:10px ;
+}

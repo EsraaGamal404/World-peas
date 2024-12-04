@@ -1,0 +1,123 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+.title h2{
+  font-size: 64px;
+  letter-spacing: -2px;
+  font-weight: 400;
+  font-family: "Newsreader", serif;
+  display: inline;
+  padding: 30px;
+}
+.title span{
+  font-size: 20px;
+  font-weight: 300;
+  font-family: "inter",serif;
+}
+.hr{
+color: #a8a5a5;
+  width: 90vw;
+  position: relative;
+  left: 20px; top: 10px;
+}
+.title{
+  margin-top: 30px;
+}
+.product img{
+  width: 160px;
+  height: 160px;
+}
+.product-info h4,.summary h4{
+  font-weight: 400;
+  font-size: 20px;
+  font-family: "inter",serif;
+  width: 15vw;
+}
+.product-info span{
+  color:#426B1F;
+  font-size: 20px;
+  font-family: "inter",serif;
+  font-weight: 600;
+}
+.product-info p{
+  border-radius: 20px;
+  border: 1px solid #ccc4c4;
+  width: fit-content;
+  padding: 5px 20px;
+  background-color: #fff;
+  margin-top: 10px;
+}
+.price{
+  font-size: 20px;
+  font-family: "inter",serif;
+  font-weight: 600;
+}
+.product-info{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 10px;
+ }
+.product-list{
+ border-radius: 24px;
+ display: flex;
+ align-items: center;
+ margin-top: 30px;
+ border: 1px  #E6E6E6 solid;
+ margin-left: 30px;
+ gap:20px;
+ width:580px;
+height: 159px;
+background-color: #FAFAF5;
+} 
+.parent{
+  display: flex;
+  align-items: flex-start;
+  justify-content:space-between;
+  gap:10vw;
+}
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: fit-content;
+  gap: 15vw;
+  line-height:30px;
+  padding: 10px;
+}
+.summary{
+  border: 1px  #E6E6E6 solid;
+  background-color: #FAFAF5;
+  border-radius: 24px;
+width: fit-content;
+margin-top: 30px;
+margin-right: 95px;
+padding: 20px;
+}
+.content ul {
+  list-style: none;
+}
+.summary h4{
+  padding:10px;
+}
+.btn{
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #426B1F;
+  color: #fff;
+  border: #426B1F 1px solid;
+  border-radius: 8px;
+  font-family: "inter",serif;
+ padding:10px;
+ margin-top: 10px;
+ text-decoration: none;
+}
+.all{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
